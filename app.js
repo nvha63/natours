@@ -16,6 +16,7 @@ const reviewRoute = require('./routes/reviewRoute');
 const bookingRoute = require('./routes/bookingRoute');
 const viewRoute = require('./routes/viewRoute');
 const cookieParser = require('cookie-parser');
+//hello
 
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'views'));
